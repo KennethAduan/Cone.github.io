@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" href="MathSym.png">
+    <script src="Index.js" defer></script> 
+    <title>CONE CALCULATION</title>
+</head>
+<body>
+  
+    <div class="sizeArea">
+        
+        <div class="upperTitle">
+            <img src="MathSym.png" alt="Math Symbol" height="15" width="15" class="mathSym" >
+         <label class="Title">CONE CALCULATION (VOLUME AND SURFACE)</label>
+        </div>
+     
+        <div class="solutionArea">
+            <label class="solveFor"> SOLVE FOR</label>
+          
+        
+            <form >
+                <select class="selection" name="selSolv" id="selectSolution" onchange="showFormula()">
+                    <option value="Select">SELECT</option>
+                    <option value="SURFACE">SURFACE</option>
+                    <option value="VOLUME">VOLUME</option>
+                </select>
+            </form>
+            <img src="Select.gif" alt="Select" id="SelectPic">
+            <img src="Volume.png" alt="Volume" id="volumePic" class="volume">
+            <img src="Surface.png" alt="Surface" id="surfacePic">
+                <br>
+                <label for="radius"class="radius"><i>r Radius</i></label>
+                <input type="text" id="radius" name="radius" class="radiusInput">
+                <br><br>
+                <label class="height"><i>h Height</i></label>
+                <input type="text" class="heightInput" id="height">
+                <br><br>
+                <button class="enterButton" id="enterBtn">ENTER</button>
+                <br><br>
+                <label class="solutionOut" >SOLUTION:</label>
+                <br><br>
+                <input type="text" id="solution"class="outputSolution">
+                <br><br>
+                <label class="answerOut" id="answerOut">ANSWER:</label>
+                <br><br>
+                <input type="text" class="outputAnswer" id="answer">
+                <div class="clearButton">
+                    <button id="clearBtn">CLEAR</button>
+                </div>
+        </div>
+        <div class="coneImage">
+            <h2>CONE CALCULATION</h2>
+            <img src="cone.png" alt="Cone" class="imageCone">      
+        </div>
+    </div>
+   
+    
+</body>
+</html>

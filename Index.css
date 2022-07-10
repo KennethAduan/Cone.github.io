@@ -1,0 +1,200 @@
+body{
+    background-color: bisque;
+}
+
+.sizeArea{
+
+    margin-top: 100px;
+    height: 800px;
+    width: 1500px;
+    margin-left: 200px;
+    background-color: rgba(58, 190, 146, 0.979)
+}
+
+.upperTitle{
+
+    background-color: rgb(100, 250, 200);
+    height: 25px;
+}
+.mathSym{
+    margin: 2px 5px;
+}
+
+.Title{
+    font-weight: bold;
+}
+
+.solutionArea{
+   
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 900px;
+    height: 700px;
+    background-color: black;
+    position: sticky;
+}
+
+.coneImage{
+    border-style: solid;
+    border-color: yellow;
+    height: 700px;
+    width: 500px;
+    margin-top: -700px;
+    margin-left: 970px;
+    position: relative;
+    background-color: rgb(4, 45, 83)
+    
+    
+}
+
+.imageCone{
+    margin-top: 50px;
+    margin-left: 115px
+}
+
+h2{
+    color: rgb(7, 250, 100);
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.solveFor{
+    font-size: 50px;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px 5px;
+}
+
+.selection{
+    font-size: 15px;
+    margin: 5px 5px;
+    background-color: gray;
+    color: yellow;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.volume{
+    margin: 5px 20px;
+    width: 250px;
+    display: none;
+}
+
+.radius{
+    color: yellow;
+    font-size: 35px;
+    margin: 5px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.radiusInput{
+    height: 30px;
+    width: 150px;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.height{
+    color: yellow;
+    font-size: 35px;
+    margin: 5px 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heightInput{
+    height: 30px;
+    width: 150px;
+    background-color: gray;
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.enterButton{
+    margin: 5px 18px;
+    border-color: gray;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: yellow;
+    border-style: solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.solutionOut{
+    color: yellow;
+    font-size: 35px;
+    margin: 5px 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.outputSolution{
+    background-color: black;
+    border-color: gray;
+    border-style: solid;
+    margin-left: 20px;
+    height: 25px;
+    width: 600px;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+.answerOut{
+    color: yellow;
+    font-size: 35px;
+    margin: 5px 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.outputAnswer{
+    background-color: black;
+    border-color: gray;
+    border-style: solid;
+    margin-left: 20px;
+    height: 25px;
+    width: 600px;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+#SelectPic{
+    height: 120px;
+    width: 200px;
+    margin-left: 200px;
+    
+}
+
+#surfacePic{
+    display: none;
+    margin: 5px 20px;
+    width: 500px;
+    height: 100px;
+}
+
+.clearButton{
+
+    width: 200px;
+    margin-left: 700px;
+    margin-top: -550px;
+
+}
+#clearBtn{
+
+    border-color: gray;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: yellow;
+    border-style: solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold
+}
