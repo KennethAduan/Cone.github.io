@@ -38,13 +38,13 @@ document.getElementById("enterBtn").onclick = function(){
         if(volAnswer == "VOLUME"){
         volume = pi *  Math.pow(radius, 2) * height/3;
         document.getElementById("solution").value ="VOLUME = "+ pi+" * ("+radius+" ^ 2 ) "+"* "+height+" / "+3;
-        document.getElementById("answer").value = volume;     
+        document.getElementById("answer").value = volume + " = "+Math.round(volume);;     
         }
 
         if(volAnswer == "SURFACE"){
         surface = pi*radius*(radius+Math.sqrt(Math.pow(height,2)+Math.pow(radius,2)));
         document.getElementById("solution").value ="SURFACE = "+ pi+" * "+radius+" * ("+radius+" + sqrt"+height+" ^ 2 + "+radius+"^2)";
-        document.getElementById("answer").value = surface;
+        document.getElementById("answer").value = surface + " = "+Math.round(surface);
         }
 
         document.getElementById("clearBtn").onclick = function(){
